@@ -1,0 +1,63 @@
+$fontFamily: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$fontSize: 1em;
+$fontSizeBig: 1.2em;
+$controlHeight: 2.4em;
+$padding: 0.8em;
+$borderColor: #ccc;
+
+
+/*Viewport sizes*/
+$small: 25.875em; /* 414/16 */
+$medium: 48em;/* 768/16 */
+$large: 85.5em; /* 1368/16 */
+$top: top;
+
+/*Cart*/
+$cartBorderColor: #ccc;
+
+
+
+/*Container*/
+$containerWidth: 60em;/* 1170/16 */
+$containerPadding: 0.9375em;/* 15/16 */
+
+
+.container {
+  max-width: $containerWidth;
+  margin: 0 auto;
+}
+
+.myName {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.app-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.currencyEntering {
+  margin-bottom: 25px;
+  .input {
+    vertical-align: middle;
+  }
+  .select {
+    vertical-align: bottom;
+    margin-left: 25px;
+  }
+}
+
+.displayResult {
+  font-size: 28px;
+}

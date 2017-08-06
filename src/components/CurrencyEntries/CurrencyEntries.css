@@ -1,0 +1,10 @@
+.currencyEntering {
+  margin-bottom: 25px;
+  .input {
+    vertical-align: middle;
+  }
+  .select {
+    vertical-align: bottom;
+    margin-left: 25px;
+  }
+}

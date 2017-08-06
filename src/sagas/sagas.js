@@ -10,7 +10,7 @@ import {
 import {RETRIEVE_RATES} from '../shared/constants';
 
 export function retrieveRates(id) {
-  return fetch(`http://api.fixer.io/latest?base=${id}`)
+  return fetch(`https://api.fixer.io/latest?base=${id}`)
       .then(response => response.json());
 }
 

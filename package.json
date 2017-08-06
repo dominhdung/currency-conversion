@@ -140,6 +140,7 @@
     "url-loader": "^0.5.7",
     "validator": "^6.1.0",
     "webpack": "^2.3.3",
+    "redux-devtools-extension": "^1.0.0",
     "winston": "^2.2.0"
   },
   "devDependencies": {
@@ -179,7 +180,7 @@
     "postcss-math": "0.0.5",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.0.0",
-    "redux-devtools-extension": "^1.0.0",
+
     "redux-mock-store": "^1.2.1",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3",

@@ -1,7 +1,7 @@
 # React Redux + Webpack
 
 ### OVERIVEW
-This app is an exercise for reac redux webpack
+This app is my exercise of reac redux webpack. It is about currency converting between some dollar types over the world. You select the source of dollar, react app calls remote api to get some rates related. Then select the target, the app will match the corresponding rate and calculate the converted number.
 
 ### UP & RUNNING
 * Install dependencies

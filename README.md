@@ -21,3 +21,4 @@ $ npm start
 
 ### DEPLOYING TO HEROKU
 This app is set up for deployment to Heroku!
+See here https://currency02.herokuapp.com/
